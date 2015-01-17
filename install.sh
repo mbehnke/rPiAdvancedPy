@@ -24,6 +24,7 @@ sudo pip install pandas==0.13.1
 sudo pip install libpng
 sudo pip install matplotlib==1.4.2
 sudo pip install netifaces
+sudo apt-get install -y subversion
 #sudo pip install SciPy==0.14.0
 #optional
 #sudo pip install XlsxWriter
