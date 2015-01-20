@@ -1,4 +1,19 @@
 #!/bin/sh
+sudo apt-get update
+
+#Installation
+#To install rpi-serial-console, simply run:
+
+sudo wget https://raw.githubusercontent.com/lurch/rpi-serial-console/master/rpi-serial-console -O /usr/bin/rpi-serial-console && sudo chmod +x /usr/bin/rpi-serial-console
+
+#Usage
+#To display whether the serial console is currently enabled or not, simply run:
+# rpi-serial-console status
+#To enable the serial console, simply run:
+#sudo rpi-serial-console enable
+#To disable the serial console, simply run:
+sudo rpi-serial-console disable
+
 # Add repository to /etc/apt/sources.list (Debian):
 # deb http://debian.fhem.de/stable ./
 # OR nightly
