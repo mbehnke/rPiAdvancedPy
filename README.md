@@ -13,7 +13,7 @@ deb http://debian.fhem.de/stable ./
 sudo sh install.sh
 
 
-# HVAC-Serive:
+# HVAC-Service:
 
 rm install_rPi_Python_Service.sh*
 
