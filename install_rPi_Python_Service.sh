@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo rm /etc/init.d/HVACAlgo
+sudo rm /etc/init.d/HVACAlgo.sh
 wget https://raw.githubusercontent.com/mbehnke/rPiAdvancedPy/master/HVACAlgo.sh
 sudo mv HVACAlgo.sh /etc/init.d/
 sudo chmod 755 /etc/init.d/HVACAlgo.sh
