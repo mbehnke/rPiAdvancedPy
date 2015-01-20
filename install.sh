@@ -35,11 +35,11 @@ wget https://raw.githubusercontent.com/mbehnke/rPiAdvancedPy/master/distribute_s
 python distribute_setup.py
 wget https://raw.github.com/pypa/pip/master/contrib/get-pip.py
 sudo python get-pip.py
-sudo pip install virtualenv
+sudo pip install virtualenv==1.11.6
 sudo pip install flask
-sudo pip install cython
-sudo pip install numpy
-sudo pip install scipy
+sudo pip install cython==0.21.1
+sudo pip install numpy==1.8.2
+sudo pip install scipy==0.14.0
 sudo pip install numexpr==1.4.1
 sudo pip install tables==2.4.0
 sudo pip install pandas==0.13.1
