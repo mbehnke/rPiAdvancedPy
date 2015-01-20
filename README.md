@@ -25,33 +25,21 @@ rm install_* && wget https://raw.githubusercontent.com/mbehnke/rPiAdvancedPy/mas
 
 # Download via svn
 
-sudo service HVACAlgo.sh stop
+  sudo service HVACAlgo.sh stop
 
-sudo svn cleanup ./raspberryPi/
+  sudo svn checkout https://svn.rwth-aachen.de/repos/XXXXX/projects/XXXXX-XXXXX/Python/src/raspberryPi
 
-sudo svn update ./raspberryPi/
+or
 
-sudo svn cleanup ./Algorithmus/
+  sudo svn update ./raspberryPi/
 
-sudo svn update ./Algorithmus/
+in case of problems
 
-sudo svn cleanup ./Helper/
+  sudo svn cleanup ./raspberryPi/
 
-sudo svn update ./Helper/
 
-sudo svn cleanup ./Simulation/
+.... USE internal script! ....
 
-sudo svn update ./Simulation/
-
-#sudo svn checkout https://svn.rwth-aachen.de/repos/XXXXX/projects/XXXXX-XXXXX/Python/src/raspberryPi
-
-#sudo svn checkout https://svn.rwth-aachen.de/repos/XXXXX/projects/XXXXX-XXXXX/Python/src/Algorithmus
-
-#sudo svn checkout https://svn.rwth-aachen.de/repos/XXXXX/projects/XXXXX-XXXXX/Python/src/Helper
-
-#sudo svn checkout https://svn.rwth-aachen.de/repos/XXXX/projects/XXXXX-XXXXX/Python/src/Simulation
-
-#chmod 755 /home/pi/raspberryPi/*
 
 sudo dos2unix ./raspberryPi/*
 
