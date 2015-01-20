@@ -32,7 +32,9 @@ DAEMON=$DIR/service.py
 DAEMON_NAME=HVACAlgo
  
 # Add any command line options for your daemon here
-DAEMON_OPTS="/var/log/myservice.log"
+#For instance, if you run the service as root then you 
+#could set $DAEMON_OPTS="/var/log/myservice.log" (the normal user cannot write files in there).
+DAEMON_OPTS="/var/log/HVACAlgo.log"
  
 # This next line determines what user the script runs as.
 # Root generally not recommended but necessary if you are using the Raspberry Pi GPIO from Python.
