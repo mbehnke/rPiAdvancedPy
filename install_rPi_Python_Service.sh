@@ -1,4 +1,5 @@
 #!/bin/sh
+sudo update-rc.d HVACAlgo.sh remove
 sudo rm /etc/init.d/HVACAlgo.sh
 wget https://raw.githubusercontent.com/mbehnke/rPiAdvancedPy/master/HVACAlgo.sh
 sudo mv HVACAlgo.sh /etc/init.d/
