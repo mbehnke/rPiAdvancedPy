@@ -57,5 +57,7 @@ in case of problems
 
 #Start Service
   sudo service HVACAlgo.sh start
+  
 or
+
   sudo reboot
