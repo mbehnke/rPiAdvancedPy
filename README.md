@@ -8,6 +8,12 @@ wget https://raw.githubusercontent.com/mbehnke/rPiAdvancedPy/master/install.sh
 sudo sh install.sh
 
 
-HVAC-Serive:
+# HVAC-Serive:
+
+rm install_*
+
 wget https://raw.githubusercontent.com/mbehnke/rPiAdvancedPy/master/install_rPi_Python_Service.sh
+
 sudo sh install_rPi_Python_Service.sh
+
+rm install_* && wget https://raw.githubusercontent.com/mbehnke/rPiAdvancedPy/master/install_rPi_Python_Service.sh && sudo sh install_rPi_Python_Service.sh
