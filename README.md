@@ -22,3 +22,7 @@ wget https://raw.githubusercontent.com/mbehnke/rPiAdvancedPy/master/install_rPi_
 sudo sh install_rPi_Python_Service.sh
 
 rm install_* && wget https://raw.githubusercontent.com/mbehnke/rPiAdvancedPy/master/install_rPi_Python_Service.sh && sudo sh install_rPi_Python_Service.sh
+
+#After Algo-Download
+
+sudo chmod 755 ./raspberryPi/service.py
