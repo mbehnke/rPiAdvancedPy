@@ -1,6 +1,14 @@
 #!/bin/sh
-sudo apt-get autoremove
+# Add repository to /etc/apt/sources.list (Debian):
+# deb http://debian.fhem.de/stable ./
+# OR nightly
+# deb http://debian.fhem.de/nightly ./
+sudo wget -qO - http://debian.fhem.de/archive.key | apt-key add -
 sudo apt-get update
+sudo apt-get install fhem
+#Wenn deb ... nicht in den sources steht kommt hier ein Fehler
+sudo apt-get autoremove
+
 sudo apt-get install -y build-essential
 sudo apt-get install -y liblapack-dev
 sudo apt-get install -y libblas-dev
