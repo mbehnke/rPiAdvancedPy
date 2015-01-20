@@ -20,7 +20,7 @@ sudo rpi-serial-console disable
 # deb http://debian.fhem.de/nightly ./
 sudo wget -qO - http://debian.fhem.de/archive.key | apt-key add -
 sudo apt-get update
-sudo apt-get install fhem
+sudo apt-get install fhem -y
 #Wenn deb ... nicht in den sources steht kommt hier ein Fehler
 sudo apt-get autoremove
 
