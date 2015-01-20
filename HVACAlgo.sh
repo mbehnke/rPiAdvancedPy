@@ -27,8 +27,8 @@
  
 # Change the next 3 lines to suit where you install your script and what you want to call it
 #DIR=/usr/local/bin/myservice
-DIR=/home/pi/pisources/
-DAEMON=$DIR/main.py
+DIR=/home/pi/raspberryPi/
+DAEMON=$DIR/service.py
 DAEMON_NAME=HVACAlgo
  
 # Add any command line options for your daemon here
